@@ -70,7 +70,7 @@ function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <Link  href="/">
-                <a className="navbar-brand">DEVAT</a>
+                <a className="navbar-brand"><img style={{height:'auto', maxWidth:'100%'}} src="/logo-mod.png" width="350" height="24" alt="logo" /></a>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -87,7 +87,7 @@ function NavBar() {
                                         background: '#ed143dc2',
                                         borderRadius: '50%',
                                         top: '-10px',
-                                        right: '-10px',
+                                        right: '6px',
                                         color: 'white',
                                         fontSize: '14px'
                                     }}>

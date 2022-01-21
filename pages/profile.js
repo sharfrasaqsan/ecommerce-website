@@ -56,8 +56,8 @@ const Profile = () => {
         if(!file)
             return dispatch({type: 'NOTIFY', payload: {error: 'File does not exist.'}})
 
-        if(file.size > 1024 * 1024) //1mb
-            return dispatch({type: 'NOTIFY', payload: {error: 'The largest image size is 1mb.'}})
+        if(file.size > 4 * 1024 * 1024) //4mb
+            return dispatch({type: 'NOTIFY', payload: {error: 'The largest image size is 4mb.'}})
 
         if(file.type !== "image/jpeg" && file.type !== "image/png") //1mb
             return dispatch({type: 'NOTIFY', payload: {error: 'Image format is incorrect.'}})
