@@ -82,6 +82,32 @@ const Home = (props) => {
         </div>
       }
 
+      <div className="container-md" style={{padding:"20px 150px 0 150px"}}>
+        <div id="carousel-id" className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner d-none d-lg-block d-xl-block" role="listbox" style={{height:"auto", borderRadius:"15px"}}>
+            <div className="carousel-item active">
+              <img src="ban1.jpg" alt="First slide" className="img-fluid" style={{height:"300px", width:"100%"}} />
+            </div>
+            <div className="carousel-item">
+              <img src="ban2.jpg" alt="Second slide" className="img-fluid"  style={{height:"300px", width:"100%"}} />
+            </div>
+            <div className="carousel-item">
+              <img src="ban4.png" alt="Third slide" className="img-fluid"  style={{height:"300px", width:"100%"}} />
+            </div>
+            <div className="carousel-item">
+              <img src="ban3.jpg" alt="Fourth slide" className="img-fluid"  style={{height:"300px", width:"100%"}} />
+            </div>
+          </div>
+
+          <ol className="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+        </div>
+      </div>
+      
       <div className="products">
         {
           products.length === 0 
@@ -95,12 +121,25 @@ const Home = (props) => {
       
       {
         props.result < page * 6 ? ""
-        : <button className="btn btn-outline-info d-block mx-auto mb-4"
+        : <button className="btn btn-info d-block mx-auto mb-4"
         onClick={handleLoadmore}>
           Load more
         </button>
       }
     
+      <div className='container'>
+        <div className="row">
+          <marquee width="100%" direction="left" height="100px">
+            <img src="hp.png" alt="p1" style={{width:"auto", height:"70px"}} />
+            <img src="dell.jpg" alt="p2" style={{width:"auto", height:"70px"}} />
+            <img src="asus.png" alt="p2" style={{width:"auto", height:"40px", paddingRight:"30px"}}/>
+            <img src="ricoh.jpg" alt="p2" style={{width:"auto", height:"45px", paddingRight:"30px"}} />
+            <img src="eset.jpg" alt="p2" style={{width:"auto", height:"50px", paddingRight:"25px"}} />
+            <img src="ms.png" alt="p2" style={{width:"auto", height:"50px"}} />
+            <img src="intel.png" alt="p2" style={{width:"auto", height:"70px"}} />
+          </marquee>
+        </div>
+      </div>
     </div>
   )
 }
@@ -113,7 +152,7 @@ export async function getServerSideProps({query}) {
   const search = query.search || 'all'
 
   const res = await getData(
-    `product?limit=${page * 6}&category=${category}&sort=${sort}&title=${search}`
+    `product?limit=${page * 12}&category=${category}&sort=${sort}&title=${search}`
   )
   // server side rendering
   return {

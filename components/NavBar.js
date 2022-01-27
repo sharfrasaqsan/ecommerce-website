@@ -68,7 +68,7 @@ function NavBar() {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-md navbar-dark text-white bg-dark">
             <Link  href="/">
                 <a className="navbar-brand"><img style={{height:'auto', maxWidth:'100%'}} src="/logo-mod.png" width="350" height="24" alt="logo" /></a>
             </Link>

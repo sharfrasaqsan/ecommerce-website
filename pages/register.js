@@ -34,6 +34,8 @@ const Register = () => {
     
     if(res.err) return dispatch({ type: 'NOTIFY', payload: {error: res.err} })
 
+    setUserData(initialState);
+
     return dispatch({ type: 'NOTIFY', payload: {success: res.msg} })
   }
 

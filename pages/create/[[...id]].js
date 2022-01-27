@@ -107,6 +107,9 @@ const ProductsManager = () => {
             if(res.err) return dispatch({type: 'NOTIFY', payload: {error: res.err}})
         }
 
+        setProduct(initialState);
+        setImages([]);
+
         return dispatch({type: 'NOTIFY', payload: {success: res.msg}})
         
     }
