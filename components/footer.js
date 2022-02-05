@@ -46,14 +46,14 @@ export default function Footer() {
     <section className="">
       <div className="row">
         <div className="col-sm-4">
-          <h5 className="text-uppercase font-weight-bolder border-bottom" style={{fontSize:"15px"}}>About</h5>
+          <h5 className="text-uppercase font-weight-bolder border-bottom pt-3" style={{fontSize:"15px"}}>About</h5>
 
           <ul className="list-unstyled mb-0">
             <li>
-              <a href="#!" className="text-white">About us</a>
+              <a href="/aboutus" className="text-white">About us</a>
             </li>
             <li>
-              <a href="#!" className="text-white">Services</a>
+              <a href="/services" className="text-white">Services</a>
             </li>
             <li>
               <a href="#!" className="text-white">Partners</a>
@@ -62,11 +62,11 @@ export default function Footer() {
         </div>
 
         <div className="col-sm-4">
-          <h5 className="text-uppercase font-weight-bolder border-bottom" style={{fontSize:"15px"}}>Legal</h5>
+          <h5 className="text-uppercase font-weight-bolder border-bottom pt-3" style={{fontSize:"15px"}}>Legal</h5>
 
           <ul className="list-unstyled mb-0">
             <li>
-              <a href="#!" className="text-white">Terms and conditions</a>
+              <a href="/termsandcondition" className="text-white">Terms and conditions</a>
             </li>
             <li>
               <a href="#!" className="text-white">Privacy Policy</a>
@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
 
         <div className="col-sm-4">
-          <h5 className="text-uppercase font-weight-bolder border-bottom" style={{fontSize:"15px"}}>Contact</h5>
+          <h5 className="text-uppercase font-weight-bolder border-bottom pt-3" style={{fontSize:"15px"}}>Contact</h5>
 
           <ul className="list-unstyled mb-0">
             <li className='pb-1'>

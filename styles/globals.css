@@ -36,3 +36,9 @@ img{
 
 /* ----------- Products Manager ------------- */
 @import url("./products_manager.css");
+
+/* ----------- About Us ------------- */
+@import url("./aboutus.css");
+
+/* ----------- Sevices ------------- */
+@import url("./services.css");
