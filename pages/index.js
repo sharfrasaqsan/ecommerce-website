@@ -131,12 +131,18 @@ const Home = (props) => {
         <div className="row">
           <marquee width="100%" direction="left" height="100px">
             <img src="hp.png" alt="p1" style={{width:"auto", height:"70px"}} />
-            <img src="dell.jpg" alt="p2" style={{width:"auto", height:"70px"}} />
-            <img src="asus.png" alt="p2" style={{width:"auto", height:"40px", paddingRight:"30px"}}/>
-            <img src="ricoh.jpg" alt="p2" style={{width:"auto", height:"45px", paddingRight:"30px"}} />
-            <img src="eset.jpg" alt="p2" style={{width:"auto", height:"50px", paddingRight:"25px"}} />
-            <img src="ms.png" alt="p2" style={{width:"auto", height:"50px"}} />
-            <img src="intel.png" alt="p2" style={{width:"auto", height:"70px"}} />
+            <img src="dell.jpg" alt="p2" style={{width:"auto", height:"70px", paddingRight:"30px"}} />
+            <img src="asus.png" alt="p2" style={{width:"auto", height:"40px", paddingRight:"35px"}}/>
+            <img src="ricoh.jpg" alt="p2" style={{width:"auto", height:"45px", paddingRight:"40px"}} />
+            <img src="eset.jpg" alt="p2" style={{width:"auto", height:"50px", paddingRight:"40px"}} />
+            <img src="ms.png" alt="p2" style={{width:"auto", height:"50px", paddingRight:"30px"}} />
+            <img src="intel.png" alt="p2" style={{width:"auto", height:"80px", paddingRight:"30px"}} />
+            <img src="jkoa.png" alt="p2" style={{width:"auto", height:"100px", paddingRight:"40px"}} />
+            <img src="toshiba.png" alt="p2" style={{width:"auto", height:"40px", paddingRight:"40px"}} />
+            <img src="epson.png" alt="p2" style={{width:"auto", height:"40px", paddingRight:"40px"}} />
+            <img src="pantum.png" alt="p2" style={{width:"auto", height:"40px", paddingRight:"40px"}} />
+            <img src="adata.png" alt="p2" style={{width:"auto", height:"50px", paddingRight:"40px"}} />
+            <img src="seagate.png" alt="p2" style={{width:"auto", height:"50px", paddingRight:"40px"}} />
           </marquee>
         </div>
       </div>

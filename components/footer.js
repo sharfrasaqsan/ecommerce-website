@@ -69,7 +69,7 @@ export default function Footer() {
               <a href="/termsandcondition" className="text-white">Terms and conditions</a>
             </li>
             <li>
-              <a href="#!" className="text-white">Privacy Policy</a>
+              <a href="/privacyandpolicy" className="text-white">Privacy Policy</a>
             </li>
           </ul>
         </div>
