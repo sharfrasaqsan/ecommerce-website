@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return <div>
 <footer className="bg-dark text-justify text-white">
-  <div className="container p-4">
+  <div className="container p-2">
     <section className="mb-4 text-right">
     <label className="form-label" for="form5Example21">Connect with us&emsp;</label>
       <a className="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/pcns.shop" role="button" target="_blank"><i className="fab fa-facebook"></i></a>
@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="col-md-5 col-12">
+          <div className="col-md-4 col-12">
             <div className="form-outline form-white mb-4">
               <input type="email" id="form5Example21" className="form-control" placeholder='Enter your email' />
             </div>
@@ -35,7 +35,7 @@ export default function Footer() {
       </form>
     </section>
 
-    <section className="mb-4">
+    <section className="mb-1">
       <p>
       PC & Network has been the premier destination for the latest tech and PC 
       hardware and Repairs in the last Decade. We been serving our products and 
@@ -97,7 +97,7 @@ export default function Footer() {
   </div>
 
   <div className="text-center p-1" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-  <i class="far fa-copyright"></i> 2022 | All rights reserved | PC & Network Solutions
+  <i class="far fa-copyright"></i> 2022 | All rights reserved | PC & NETWORK SOLUTIONS
   </div>
 </footer>
   </div>;

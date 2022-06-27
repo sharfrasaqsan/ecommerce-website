@@ -3,36 +3,25 @@ import React from 'react'
 export default function services() {
     return <div>
         <div className='container-fluid mx-auto mt-5 mb-5 col-12' style={{"text-align":"center"}}>
-            <div className="hd">Why People Believe in Us</div>
+            <div className="hd">Our Services</div>
             <p><small className="text-muted">Always render more and better service than <br />is expected of you, no matter what your ask may be.</small></p>
             <div className="row" style={{"justify-content": "center"}}>
-                <div className="card col-md-3 col-12">
+                <div className="card col-md-3 col-12 ml-2">
                     <div className="card-content">
-                        <div className="card-body"> <img className="img" src="https://i.imgur.com/S7FJza5.png" />
-                            <div className="shadow"></div>
-                            <div className="card-title"> We're Free </div>
+                        <div className="card-body"> <img className="img" src="https://toppng.com/uploads/preview/computer-icon-vector-png-desktop-computer-11563207085f1wwos2r52.png" style={{ width: 'auto', height: '90px' }} />
+                            <div className="card-title">Computer shop</div>
                             <div className="card-subtitle">
-                                <p> <small className="text-muted">We spent thousands of hours creating on algorithm that does this for you in seconds. We collect a small fee from the professional after they meet your</small> </p>
+                                <p> <small className="text-muted">A store that sells computers to the small businessperson or personal user.</small> </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="card col-md-3 col-12 ml-2">
                     <div className="card-content">
-                        <div className="card-body"> <img className="img" src="https://i.imgur.com/xUWJuHB.png" />
-                            <div className="card-title"> We're Unbiased </div>
+                        <div className="card-body"> <img className="img rck" src="https://www.pngfind.com/pngs/m/255-2556464_computer-repair-icon-png-clipart-computer-repair-technician.png" style={{ width: 'auto', height: '90px' }} />
+                            <div className="card-title">Computer repair service</div>
                             <div className="card-subtitle">
-                                <p> <small className="text-muted"> We don't accept ads from anyone. We use actual data to match you who the best person for each job </small> </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="card col-md-3 col-12 ml-2">
-                    <div className="card-content">
-                        <div className="card-body"> <img className="img rck" src="https://i.imgur.com/rG3CGn3.png" />
-                            <div className="card-title"> We Guide you </div>
-                            <div className="card-subtitle">
-                                <p> <small className="text-muted">Buying or selling a home is often the largest transaction anyone does in their life. we guide you through the process so that you can be confident in reaching your dream outcome.</small> </p>
+                                <p> <small className="text-muted">Process of identifying, troubleshooting and resolving problems and issues in a faulty computer.</small> </p>
                             </div>
                         </div>
                     </div>
