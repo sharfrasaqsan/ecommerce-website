@@ -53,26 +53,26 @@ const Register = () => {
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input type="text" className="form-control" id="name"
-            name="name" value={name} onChange={handleChangeInput} />
+            name="name" value={name} onChange={handleChangeInput} placeholder="Enter your name" />
           </div>
 
           <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>
             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            name="email" value={email} onChange={handleChangeInput} />
+            name="email" value={email} onChange={handleChangeInput} placeholder="Enter your email" />
             <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
 
           <div className="form-group">
             <label htmlFor="exampleInputPassword1">Password</label>
             <input type="password" className="form-control" id="exampleInputPassword1"
-            name="password" value={password} onChange={handleChangeInput} />
+            name="password" value={password} onChange={handleChangeInput} placeholder="Enter a strong password" />
           </div>
 
           <div className="form-group">
             <label htmlFor="exampleInputPassword2">Confirm Password</label>
             <input type="password" className="form-control" id="exampleInputPassword2"
-            name="cf_password" value={cf_password} onChange={handleChangeInput} />
+            name="cf_password" value={cf_password} onChange={handleChangeInput} placeholder="Confirm paassword" />
           </div>
           
           <button type="submit" className="btn btn-dark w-100">Register</button>
