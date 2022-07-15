@@ -122,12 +122,12 @@ const Cart = () => {
               <label htmlFor="address">Address</label>
               <input type="text" name="address" id="address"
               className="form-control mb-2" value={address}
-              onChange={e => setAddress(e.target.value)} />
+              onChange={e => setAddress(e.target.value)} placeholder="Enter your address" />
 
               <label htmlFor="mobile">Mobile</label>
               <input type="text" name="mobile" id="mobile"
               className="form-control mb-2" value={mobile}
-              onChange={e => setMobile(e.target.value)} />
+              onChange={e => setMobile(e.target.value)} placeholder="Enter your mobile number" />
             </form>
 
             <h3>Total: <span className="text-danger">Rs. {total}</span></h3>
